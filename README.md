@@ -2,6 +2,8 @@
 
 Scripts generated post-workshop to calculate and generate what's needed for calibrating a source and receiver (hydrophone) in a test tank: near/far-field placement, minimum usable frequency, frequency resolution, and calibration signal generation (stepped tones, sweeps, tone bursts).
 
+This README and code files have been made with the help of Claude AI
+
 ## Files
 
 - `calc_ideal_N_fmin.m` — function: computes the tank's waveguide cutoff frequency and, for each test frequency, the ideal number of cycles (N) needed for a target frequency resolution, plus the resulting pulse duration and far-field distance.
